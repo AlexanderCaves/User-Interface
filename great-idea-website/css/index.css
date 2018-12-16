@@ -64,23 +64,87 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.navigation {
-	display: inline-block;
+.container {
+	max-width: 928px;
+	width: 100%;
+	height: 1324px;
+	display: flex;
+	flex-direction: column;
+	margin: 96px;
 }
 
-header {
-	display: inline-block;
+.navbar {
+	width: 100%;
+	height: 96px;
+	display: flex;
+}
+
+.menu {
+	width: 75%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.logo {
+	padding: 24px;
 }
 
 .top-content {
-	display: inline-block;
+	display: flex;
+	width: 100%;
+	height: 512px;
+	flex-direction: row;
+}
+
+.top-content-text {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.title {
+	font-size: 64px;
+}
+
+.top-content-img {
+	width: 50%;
+}
+
+.mid-content {
+	width: 100%;
+	height: 612px;
+	display: flex;
+	flex-direction: column;
+}
+
+.halves {
+	display: flex;
+	flex-direction: row;
+	padding: 24px;
+}
+
+.middle-img {
+	padding: 12px;
+}
+
+.thirds {
+	display: flex;
+	flex-direction: row;
+	padding: 24px;
 }
 
 .bottom-content {
-	display: inline-block;
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	padding: 24px;
 }
 
-.contact {
-	display: inline-block;
+.footer {
+	display: flex;
+	justify-content: center;
 }
-
